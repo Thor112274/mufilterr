@@ -184,11 +184,11 @@ async def start(client:Client, message):
                         buttons = [[
                             InlineKeyboardButton('☆ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ☆', url=f'http://t.me/{temp.U_NAME}?startgroup=start')
                         ],[
-                            InlineKeyboardButton("✨ Mᴏᴠɪᴇ Gʀᴏᴜᴘ ✨",  url=f'https://t.me/+7hhFYFo61m5hNzU9'),
-                            InlineKeyboardButton('🦋 Bᴏᴛ Uᴘᴅᴀᴛᴇꜱ 🦋', url=f'https://t.me/+bKaEQbdeYnE5Zjhl')
+                            InlineKeyboardButton("✨ Mᴏᴠɪᴇ Gʀᴏᴜᴘ ✨",  url=f'https://t.me/+JPjF6TKDQEBhMTk1'),
+                            InlineKeyboardButton('🦋 Bᴏᴛ Uᴘᴅᴀᴛᴇꜱ 🦋', url=f'https://t.me/BotOfficial234')
                         ],[
                             InlineKeyboardButton('Aʙᴏᴜᴛ 💌', callback_data='about'),
-                            InlineKeyboardButton('Mᴀɪɴ Cʜᴀɴɴᴇʟ ⚜️', url=f'https://t.me/Movie_loverzz')
+                            InlineKeyboardButton('Mᴀɪɴ Cʜᴀɴɴᴇʟ ⚜️', url=f'https://t.me/MoviesU2')
                         ],[
                             InlineKeyboardButton('Mᴏsᴛ Sᴇᴀʀᴄʜ 🔍', callback_data="mostsearch"),
                             InlineKeyboardButton('Tᴏᴘ Tʀᴇɴᴅɪɴɢ ⚡', callback_data="trending")
@@ -213,11 +213,11 @@ async def start(client:Client, message):
         buttons = [[
                             InlineKeyboardButton('☆ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ☆', url=f'http://t.me/{temp.U_NAME}?startgroup=start')
                         ],[
-                            InlineKeyboardButton("✨ Mᴏᴠɪᴇ Gʀᴏᴜᴘ ✨",  url=f'https://t.me/+7hhFYFo61m5hNzU9'),
-                            InlineKeyboardButton('🦋 Bᴏᴛ Uᴘᴅᴀᴛᴇꜱ 🦋', url=f'https://t.me/+bKaEQbdeYnE5Zjhl')
+                            InlineKeyboardButton("✨ Mᴏᴠɪᴇ Gʀᴏᴜᴘ ✨",  url=f'https://t.me/+JPjF6TKDQEBhMTk1'),
+                            InlineKeyboardButton('🦋 Bᴏᴛ Uᴘᴅᴀᴛᴇꜱ 🦋', url=f'https://t.me/BotOfficial234')
                         ],[
                             InlineKeyboardButton('Aʙᴏᴜᴛ 💌', callback_data='about'),
-                            InlineKeyboardButton('Mᴀɪɴ Cʜᴀɴɴᴇʟ ⚜️', url=f'https://t.me/Movie_loverzz')
+                            InlineKeyboardButton('Mᴀɪɴ Cʜᴀɴɴᴇʟ ⚜️', url=f'https://t.me/MoviesU2')
                         ],[
                             InlineKeyboardButton('Mᴏsᴛ Sᴇᴀʀᴄʜ 🔍', callback_data="mostsearch"),
                             InlineKeyboardButton('Tᴏᴘ Tʀᴇɴᴅɪɴɢ ⚡', callback_data="trending")
@@ -275,11 +275,11 @@ async def start(client:Client, message):
         buttons = [[
             InlineKeyboardButton('☆ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ☆', url=f'http://t.me/{temp.U_NAME}?startgroup=start')
                         ],[
-                            InlineKeyboardButton("✨ Mᴏᴠɪᴇ Gʀᴏᴜᴘ ✨",  url=f'https://t.me/+7hhFYFo61m5hNzU9'),
-                            InlineKeyboardButton('🦋 Bᴏᴛ Uᴘᴅᴀᴛᴇꜱ 🦋', url=f'https://t.me/+bKaEQbdeYnE5Zjhl')
+                            InlineKeyboardButton("✨ Mᴏᴠɪᴇ Gʀᴏᴜᴘ ✨",  url=f'https://t.me/+JPjF6TKDQEBhMTk1'),
+                            InlineKeyboardButton('🦋 Bᴏᴛ Uᴘᴅᴀᴛᴇꜱ 🦋', url=f'https://t.me/BotOfficial234')
                         ],[
                             InlineKeyboardButton('Aʙᴏᴜᴛ 💌', callback_data='about'),
-                                InlineKeyboardButton('Mᴀɪɴ Cʜᴀɴɴᴇʟ ⚜️', url=f'https://t.me/Movie_loverzz')
+                            InlineKeyboardButton('🦋 Bᴏᴛ Uᴘᴅᴀᴛᴇꜱ 🦋', url=f'https://t.me/BotOfficial234')
                         ],[         
                             InlineKeyboardButton('Mᴏsᴛ Sᴇᴀʀᴄʜ 🔍', callback_data="mostsearch"),
                             InlineKeyboardButton('Tᴏᴘ Tʀᴇɴᴅɪɴɢ ⚡', callback_data="trending")
