@@ -13,28 +13,28 @@ def is_enabled(value, default):
 #---------------------------------------------------------------
 #---------------------------------------------------------------         ,
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', '16590713'))
-API_HASH = environ.get('API_HASH', 'b51660cc3de937cc6bedea9d148ce48d')
-BOT_TOKEN = environ.get('BOT_TOKEN', '')
+API_ID = int(environ.get('API_ID', '14553761'))
+API_HASH = environ.get('API_HASH', 'a1cab49dcdfd2eb3bea5e5a552c5d479')
+BOT_TOKEN = environ.get('BOT_TOKEN', '6984531529:AAH7aK-rsA2GdyQsPX1aX-pIlQjndxb7njo')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '949657126').split()]
-USERNAME = environ.get('USERNAME', "https://t.me/mladminbot") # ADMIN USERNAME
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002239900635'))
-MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/JisshuMovieZone')
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1134380825 5878008646 777060241').split()]
+USERNAME = environ.get('USERNAME', "https://t.me/ravana1212") # ADMIN USERNAME
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002047120608'))
+MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/JisshuMovieZ')
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001176901973 -1002096410592').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://maxine11229:2d0NThJZDM9iSu48@cluster0.9qvbj.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DATABASE_NAME = environ.get('DATABASE_NAME', "maxine11229")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://moviesuniverse:moviesu2@cluster0.ncowqhk.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'My_Tg_files')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 #----------- There will be channel id add in all these ---------
-LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002239900635'))  # set shortner log channel
+LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002047120608'))  # set shortner log channel
 DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','0')) # The movie you upload in it will be deleted from the bot.
-LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002239900635'))
-auth_channel = environ.get('AUTH_CHANNEL', '-1001622914589')
+LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002047120608'))
+auth_channel = environ.get('AUTH_CHANNEL', '-1001654996929')
 SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1002077293491'))
 request_channel = environ.get('REQUEST_CHANNEL', '-1002239900635') # If anyone sends a request message to your bot, you will get it in this channel.
 MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1001663272283')) # 
@@ -69,7 +69,7 @@ REQUEST_CHANNEL = int(request_channel) if request_channel and id_pattern.search(
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-START_IMG = (environ.get('START_IMG', 'https://graph.org/file/a319f6b9ce3b993c6e22f.jpg')).split()
+START_IMG = (environ.get('START_IMG', 'https://graph.org/file/a5420771f0e9e2814feed.jpg')).split()
 FORCESUB_IMG = environ.get('FORCESUB_IMG', 'https://i.ibb.co/ZNC1Hnb/ad3f2c88a8f2.jpg')
 REFER_PICS = (environ.get("REFER_PICS", "https://envs.sh/PSI.jpg")).split() 
 PAYPICS = (environ.get('PAYPICS', 'https://graph.org/file/f4db1c3ad3d9e38b328e6.jpg')).split()
@@ -85,7 +85,7 @@ IS_SEND_MOVIE_UPDATE = is_enabled('IS_SEND_MOVIE_UPDATE', True) # Don't Change I
 PORT = environ.get('PORT', '8080')
 MAX_BTN = int(environ.get('MAX_BTN', '8'))
 AUTO_DELETE = is_enabled('AUTO_DELETE', True)
-DELETE_TIME = int(environ.get('DELETE_TIME', 600))
+DELETE_TIME = int(environ.get('DELETE_TIME', 300))
 IMDB = is_enabled('IMDB', True)
 FILE_CAPTION = environ.get('FILE_CAPTION', f'{script.FILE_CAPTION}')
 IMDB_TEMPLATE = environ.get('IMDB_TEMPLATE', f'{script.IMDB_TEMPLATE_TXT}')
@@ -97,7 +97,7 @@ LINK_MODE = is_enabled('LINK_MODE', True)
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-STREAM_MODE = bool(environ.get('STREAM_MODE', True)) # Set True or Flase
+STREAM_MODE = bool(environ.get('STREAM_MODE', False)) # Set True or Flase
 # Online Stream and Download
 
 MULTI_CLIENT = False
@@ -144,7 +144,7 @@ admin_cmds = [
     "/delreq", "/channel", "/del_file", "/delete",
     "/deletefiles", "/deleteall", 
     "All These Commands Can Be Used Only By Admins.", 
-    "⚡ powered by @JISSHU_BOTS"
+    "⚡ powered by @"
 ]
 
 cmds = [
