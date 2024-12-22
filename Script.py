@@ -117,7 +117,7 @@ User - {}"""
 ⭐ Rating: {rating} / 10</b>
 """
 
-    FILE_CAPTION = """<b><a href="https://t.me/Movie_loverzz">{file_caption}</a></b>\n\n<b>⚜️ Powered By : <a href=https://t.me/moviesu2>[MOVIESU2]</a></b>"""
+    FILE_CAPTION = """<b><a href="https://t.me/moviesu2">{file_caption}</a></b>\n\n<b>⚜️ Powered By : <a href=https://t.me/moviesu2>[MOVIESU2]</a></b>"""
     
 
     ALRT_TXT = """ᴛʜɪꜱ ɪꜱ ɴᴏᴛ ʏᴏᴜʀ ᴍᴏᴠɪᴇ ʀᴇǫᴜᴇꜱᴛ,ʀᴇǫᴜᴇꜱᴛ ʏᴏᴜʀ'ꜱ...!"""
